@@ -1,0 +1,22 @@
+.thumbnail-container {
+  list-style-type: none;
+  width: 25%;
+  margin: 0;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.thumbnail-container:active {
+  transform: scale(0.96);
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail-container {
+    width: 20%;
+    padding: 7px;
+  }
+}
+
+.thumbnail-img {
+  width: 100%;
+}
